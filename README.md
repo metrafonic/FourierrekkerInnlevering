@@ -8,8 +8,8 @@ Hvordan bruke git systemet:
   git pull
   ```
   
-2. Åpne maple filen lag endringer som du vil.
-3. Når du er klar for å sende opp endringer: Lag en branch med et **navn** som **reflekterer de endringene** du har gjort:
+2. Åpne maple filen, begynn med å endre noe.
+3. Når du er klar for å sende opp endringen: Lag en branch med et **navn** som **reflekterer de endringene** du har gjort: (dette gjøres bare noen få ganger for å katogorisere endringene. De små endringene fikses i det neste steget).
 
   ```sh
   git checkout -b teori
@@ -26,7 +26,7 @@ Hvordan bruke git systemet:
 
   ```sh
   git add -A
-  git commit "din melding om hva du har gjort
+  git commit "din melding om hva du har gjort"
   git commit -u origin navnetpåbranchen
   ```
   
