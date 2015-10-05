@@ -1,10 +1,10 @@
 # FourierrekkerInnlevering
 Hvordan bruke git systemet:
 
-1. Lukk Maple filen! Begynn ved origin branch, og hent inn endringer:
+1. Lukk Maple filen! Begynn ved master branch, og hent inn endringer:
 
   ```sh
-  git checkout origin
+  git checkout master
   git pull
   ```
   
@@ -26,9 +26,10 @@ Hvordan bruke git systemet:
 
   ```sh
   git add -A
-  git commit "din melding om hva du har gjort"
+  git commit -m "din melding om hva du har gjort"
   git commit -u origin navnetpåbranchen
   ```
   
 5. Dersom du føler at du kan endre på flere ting i maple under samme branch (feks her heter branchen teori), så er det bare å trykke save, og følge steg 4 igjen.
-6. Når du føler du er ferdig med endringene på denne branchen, hopp til steg 1. Viktig at man alltid utfører steg 1 når man skal lage en ny branch, ikke hopp rett til 3. 
+6. Når du føler du er ferdig med endringene på denne branchen, merge med hjelp av nettsiden (viktig for at master skal oppdaterers). Hopp deretter til steg 1. Viktig at man alltid utfører steg 1 når man skal lage en ny branch, ikke hopp rett til 3. 
+
